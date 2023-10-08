@@ -1,0 +1,471 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+/* Container */
+
+#container {
+    max-height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #919191;
+    background-color: #C4C4C4;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: lightcyan;
+}
+
+#logo-perpustakaan-container {
+    float: left;
+    width: 6%;
+    height: 80%;
+    padding: 8px;
+}
+
+#logo-perpustakaan {
+    width: 80px;
+    height: 80px;
+}
+
+#nama-alamat-perpustakaan-container {
+    float: left;
+    width: 90%;
+    padding: 8px;
+}
+
+.nama-alamat-perpustakaan {
+    float: left;
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+}
+
+/* Navbar */
+
+#header2 {
+    width: 100%;
+    height: 32px;
+    background-color: darkgoldenrod;
+    color: #FFFFFF;
+}
+
+#nama-user {
+    float: left;
+    color: #EEEEEE;
+    padding: 6px;
+}
+
+#sidebar {
+    float: left;
+    width: 15.8%;
+}
+
+#sidebar ul {
+    list-style: none;
+}
+
+#sidebar a:link,
+#sidebar a:visited {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+}
+
+#sidebar a:hover {
+    background-color: #919191;
+}
+
+.label-navigasi {
+    background-color: darkblue;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+#content-container {
+    float: left;
+    width: 83.8%;
+    background-color: #FFFFFF;
+}
+
+/* Footer */
+
+.footer {
+    width: 99.4%;
+    height: 20px;
+    clear: both;
+    text-align: center;
+    padding: 4px;
+    background-color: #5C3701;
+}
+
+/* Pages */
+
+#label-page {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    border: 2px solid #C4C4C4;
+    padding: 4px;
+    width: 97.9%;
+}
+
+#content {
+    float: left;
+    width: 98%;
+    margin-left: 6px;
+    min-height: 399px;
+    background-image: none;
+    border: 2px solid #C4C4C4;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+#beranda-judul {
+    text-align: center;
+    background-color: none;
+}
+
+#beranda-konten {
+    text-align: center;
+    padding-top: 140px;
+    color: red;
+}
+
+.tombol {
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #F1F1F1;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #01597E;
+    color: black;
+}
+
+#tombol-tambah-container {
+    margin-bottom: 10px;
+}
+
+#tombol-tambah-container a:hover {
+    background-color: #C4C4C4;
+}
+
+#tombol {
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #F1F1F1;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #01597E;
+    color: black;
+}
+
+.tombol-tambah-container {
+    margin-bottom: 10px;
+}
+
+.tombol-tambah-container a:hover {
+    background-color: #C4C4C4;
+}
+
+#tabel-tampil {
+    border: 1px solid #C4C4C4;
+    width: 100%;
+}
+
+#tabel-tampil tr:nth-child(odd) {
+    background-color: #F1F1F1;
+}
+
+#tabel-tampil tr th {
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 4px;
+    text-align: left;
+}
+
+#tabel-tampil td {
+    padding: 4px;
+}
+
+#label-tampil-no {
+    width: 30px;
+}
+
+#label-opsi {
+    width: 158px;
+    font-weight: bold;
+}
+
+#label-opsi2 {
+    width: 82px;
+    font-weight: bold;
+}
+
+#label-opsi3 {
+    width: 166px;
+    font-weight: bold;
+}
+
+.tombol-opsi-container {
+    float: left;
+    margin-right: 10px;
+}
+
+/* ... Tambahkan CSS lainnya ... */
+
+#tombol-search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: cyan;
+    padding: 3px 8px;
+    border: 1px solid #01597E;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #C4C4C4;
+}
+
+.tombol-custom {
+    margin-right: 5px;
+}
+
+#search-input {
+    padding: 6px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ccc;
+}
+
+#search-button {
+    padding: 6px 12px;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    background-color: #5C3701;
+    color: #fff;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #4D2A08;
+}
+
+/* ... Tambahkan CSS lainnya ... */
+
+
+/* ... CSS selanjutnya ... */
+
+
+  
+  .tombol-opsi-container a:hover {
+	background-color: #C4C4C4;
+  }
+  
+  #tabel-input {
+	width: 100%;
+  }
+  
+  .label-formulir {
+	width: 12%;
+	height: 36px;
+	margin: 20px;
+  }
+  
+  .isian-formulir {
+	width: 80%;
+	padding: 4px;
+	width: 99.8%;
+  }
+  
+  .isian-formulir2 {
+	width: 78%;
+	padding: 4px;
+	width: 20%;
+  }
+  
+  .label-formulir2 {
+	width: 100%;
+	height: 26px;
+	margin: 20px;
+	padding-left: 16px;
+	font-weight: bold;
+  }
+  
+  .isian-formulir-border {
+	border: 1px solid #C4C4C4;
+  }
+  
+  .warna-formulir-disabled {
+	background-color: #F1F1F1;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+	#sidebar {
+	  float: none;
+	  width: 100%;
+	}
+  
+	#content-container {
+	  float: none;
+	  width: 100%;
+	}
+  
+	.label-navigasi {
+	  text-align: center;
+	}
+  
+	.tombol-opsi-container {
+	  float: none;
+	}
+  
+	.label-formulir {
+	  width: 100%;
+	  height: auto;
+	  margin: 10px 0;
+	}
+  
+	.isian-formulir {
+	  width: 100%;
+	}
+  
+	.isian-formulir2 {
+	  width: 100%;
+	}
+  
+	.label-formulir2 {
+	  width: 100%;
+	  padding-left: 0;
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	#container {
+	  width: 100%;
+	  margin: 0;
+	  border: none;
+	  background-color: #C4C4C4;
+	}
+  
+	header {
+	  height: 80px;
+	  margin: 0 auto;
+
+	}
+  
+	#logo-perpustakaan-container {
+	  width: 15%;
+	  padding: 4px;
+	}
+  
+	#logo-perpustakaan {
+	  width: 60px;
+	  height: 60px;
+	}
+  
+	#nama-alamat-perpustakaan-container {
+	  width: 85%;
+	  padding: 6px;
+	}
+  
+	.nama-alamat-perpustakaan {
+	  padding: 2px;
+	  font-size: 12px;
+	}
+  
+	#header2 {
+	  height: 28px;
+	  margin: 0 auto;
+	}
+  
+	#nama-user {
+	  padding: 4px;
+	  font-size: 12px;
+	}
+  
+	#sidebar {
+	  width: 100%;
+	  padding: 6px;
+	}
+  
+	#content-container {
+	  width: 100%;
+	  padding: 6px;
+	}
+  
+	.footer {
+	  padding: 2px;
+	  font-size: 12px;
+	}
+  
+	#label-page {
+	  margin-left: 2px;
+	  padding: 2px;
+	  width: 97.4%;
+	}
+  
+	#content {
+	  min-height: 250px;
+	  padding: 6px;
+	  margin-bottom: 2px;
+	}
+  
+	#beranda-konten {
+	  padding-top: 80px;
+	}
+  
+	.tombol,
+	#tombol {
+	  font-size: 10px;
+	  padding: 2px;
+	}
+  
+	.label-formulir,
+	.label-formulir2 {
+	  height: 22px;
+	  margin: 10px 0;
+	  font-size: 11px;
+	}
+  
+	.isian-formulir,
+	.isian-formulir2 {
+	  padding: 2px;
+	  font-size: 11px;
+	}
+  }
+  
